@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+body{
+    
+    background-color: black;
+    min-height: 100vh;
+}
+
+body > *{
+    width: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 92px 0 12px;
+    height: 65px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.left-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.left-content-header .divB{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.left-content-header .divB:hover{
+    background-color: #222;
+}
+
+.left-content-header button{
+    background-color: transparent;
+    width: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.left-content-header img{
+    width: 60px;
+}
+.center-content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid  #222;
+    padding: 5px 20px;
+    position: relative;
+    left: -240px;    
+}
+.center-content-header button{
+    background-color: transparent;
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+
+.center-content-header input{
+    border: none;
+    height: 20px;
+    color: white;
+    width: 300px;
+    background-color: transparent;
+}
+
+.center-content-header input:focus{
+    outline: none;
+}
+
+.right-content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    cursor: pointer;
+}
+
+.right-content-header button{
+    width: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.right-content-header img{
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+
+main aside{
+    background-color: green;
+    width: 70px;
+    height: 100px;
+}
